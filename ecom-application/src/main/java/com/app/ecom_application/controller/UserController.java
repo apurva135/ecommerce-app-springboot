@@ -1,14 +1,14 @@
-package com.app.ecom_application;
+package com.app.ecom_application.controller;
 
 
 
+import com.app.ecom_application.model.User;
+import com.app.ecom_application.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
